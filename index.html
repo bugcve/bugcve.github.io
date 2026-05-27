@@ -1,21 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <title>bugcve</title>
   <style>
-body {
-  font-family: monospace
-}
-</style>
-    <title>bugcve</title>
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 20px;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start; 
+      gap: 10px;               
+      margin-top: 20px;
+    }
+
+    .timeline {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;               
+    }
+
+    .icon {
+      vertical-align: middle;
+      margin-right: 8px;
+      width: 24px;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
+
+  <div>
     @bugcve's home on the internet...ain't my web design skills sick?
-  <br>
-  <br>
-  <a href='https://t.me/bugcve/'>t.me/bugcve</a>
-  <br>
-  <br>
-  <img src="Tux.png">
+    <br><br>
+    <a href='https://t.me'>t.me/bugcve</a>
+  </div>
+
+  <div class="main">
+    
+    <img src="Tux.png" style="display: block;">
+
+    <div class="timeline">
+	Linux distro timeline:
+	<br>
+	<br>
+      <img src="arch.png" class="icon">Arch
+	<br>
+	<br>
+      <img src="nixos.png" class="icon">NixOS
+	<br>
+	<br>
+      <img src="debian.png" class="icon">Debian
+    </div>
+
+  </div>
+
 </body>
 </html>
